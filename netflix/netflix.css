@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/chute.jpg); 
+    background-size: cover;
+    background-repeat: no repeat;
+}
+.desktopbg{
+    display: none;
+}
+header{
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,rgba(0,0,0,.7)),color-stop(10%,rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(top,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    background-image: -moz- oldlinear-gradient(top,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    background-image: -o-linear-gradient(top,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    height: 68px;
+    display: flex;
+}
+header .img-logo img{
+    width: 100px;
+    height: 25px;
+    margin-left: 3rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+header .menu{
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+}
+header .menu a, p {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+header .menu a:nth-child(1){
+    font-size: 11pt;
+}
+header .menu a:hover{
+    color: rgb(210, 214, 218)
+}
+header .icons{
+    margin-left: 34rem;
+    margin-top: 22px;
+    letter-spacing: 1.5rem;
+    cursor: pointer;
+    
+}
+header .icons #sasuke{
+    border-radius: 5px;
+    width: 30px;
+}
+header .icons #up{
+    border-radius: 5px;
+    width: 10px;
+    
+}
+section img{
+    width: 30rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+section .top10{
+    width: 30px;
+    border-radius: 2px;
+    margin-top: 1%;
+    float: left;
+}
+section .texxt h1{
+font-family: sans-serif;
+margin-top: 9px;
+color: #fff;
+text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+font-size: 16pt;
+}
+section .texxt h2{
+    font-family: sans-serif;
+    margin-left: 3rem;
+    color: #fff;
+    font-size: 14pt;
+    margin-top: 12px;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+}
+section .watch{
+    color: black;
+    font-size: 16pt;
+    outline: none;
+    border: 0;
+    font-family: sans-serif;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 3px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 14pt;
+}
+section .watch:hover{
+    background-color: rgba(209, 206, 206, 0.692);
+    cursor: pointer;
+}
+section .learnmore{
+    background-color: rgba(116, 111, 111, 0.404);
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    outline: none;
+    border: 0;
+    font-family: sans-serif;
+    width: 13rem;
+    height: 2.5rem;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+section .learnmore:hover{
+    background-color: rgba(163, 159, 159, 0.404);
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(8, 8, 8, 0.068);
+}
+.footer{
+    margin-left: 3rem;
+}
+footer p{
+    color: white;
+    font-size: 14pt;
+    font-family: sans-serif;
+    margin-top:4.5rem;
+    padding: 0.5rem;
+}
+footer img{
+    overflow-y: auto;
+    white-space: nowrap;
+    padding: 0rem;
+    width: 232px;
+    height: 130px;
+    border-radius: 4px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    cursor: pointer;
+}
+#aside1{
+    margin-top: -8%;
+    cursor: pointer;
+}
+#aside1 img{
+    width: 45px;
+    
+}
+#aside2{
+    cursor: pointer;
+    margin-top: -4%;
+}
+#aside2 img{
+    width: 45px;
+}
